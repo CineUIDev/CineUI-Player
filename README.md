@@ -1,4 +1,8 @@
-## Free. No Ads. No Subscriptions.
+# CineUI Player
+
+### Less player. More movie.
+
+**Free • No Ads • No Subscriptions**
 
 A cinematic video player for macOS, originally built for myself.
 
