@@ -1,0 +1,110 @@
+name: Bug report
+description: Report a reproducible problem in CineUI Player
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve CineUI Player.
+        Please include as much detail as possible so the issue can be reproduced.
+
+  - type: input
+    id: cineui-version
+    attributes:
+      label: CineUI Player version
+      description: Which version are you using?
+      placeholder: "0.6 Alpha Universe"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "macOS 13 Ventura, macOS 14 Sonoma, etc."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mac-type
+    attributes:
+      label: Mac architecture
+      options:
+        - Apple Silicon
+        - Intel
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: mac-model
+    attributes:
+      label: Mac model
+      description: Optional, but useful for performance or rendering issues.
+      placeholder: "MacBook Pro 14-inch, Mac mini, iMac, etc."
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+      placeholder: "Tell us what went wrong."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that reproduce the issue.
+      placeholder: |
+        1. Open CineUI Player
+        2. Open ...
+        3. Click ...
+        4. The problem appears
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: input
+    id: media-format
+    attributes:
+      label: Video format / codec
+      description: If the issue is related to playback, tell us the container or codec if known.
+      placeholder: "MKV / HEVC, MP4 / H.264, AV1, HDR, etc."
+
+  - type: textarea
+    id: media-details
+    attributes:
+      label: Media details
+      description: Optional details such as resolution, HDR/SDR, frame rate, audio codec, subtitles, or network stream type.
+      placeholder: "4K HDR, 24 fps, Dolby audio, external subtitles, HLS stream, etc."
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, video, or logs
+      description: Drag and drop screenshots, screen recordings, or relevant logs here.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add any context that may help reproduce or understand the issue.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that this issue is not already reported.
+          required: true
+        - label: I understand that CineUI Player is currently an Alpha build.
+          required: true
