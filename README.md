@@ -1,3 +1,5 @@
+<img width="2244" height="701" alt="ChatGPT Image 17 сент  2026 г , 10_58_06" src="https://github.com/user-attachments/assets/b3eaa10c-c7e0-4cfd-9391-711402f667e3" />
+
 # CineUI Player
 
 ### Less player. More movie.
