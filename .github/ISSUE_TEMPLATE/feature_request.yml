@@ -1,0 +1,89 @@
+name: Feature request
+description: Suggest an idea or improvement for CineUI Player
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape CineUI Player.
+        Describe the idea and the problem it would solve.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of CineUI does this idea relate to?
+      options:
+        - Playback
+        - Interface / HUD
+        - Themes / visual worlds
+        - Scene Preview
+        - Audio
+        - Subtitles
+        - Gestures / controls
+        - Performance
+        - Accessibility
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Tell us what is missing, difficult, or could feel better.
+      placeholder: "I often need to ... but currently ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Describe the feature or improvement you would like to see.
+      placeholder: "I would like CineUI to ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: How should it work?
+      description: Describe the ideal interaction or behavior.
+      placeholder: "When the user ..., CineUI should ..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Nice to have
+        - Useful
+        - Very important
+        - Essential for my workflow
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Mockups, references, or examples
+      description: Drag and drop screenshots, sketches, videos, or links that help explain the idea.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add any additional thoughts or alternatives.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that a similar feature request does not already exist.
+          required: true
+        - label: I understand that CineUI Player is currently in Alpha and features may change.
+          required: true
