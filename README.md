@@ -72,11 +72,13 @@ This allows CineUI to stay extensible while preserving the identity and core tec
 
 ### CineUI Player 0.6 Alpha Universe
 
-The public Alpha build will be available through the **Releases** section of this repository.
+### [⬇️ Download CineUI Player 0.6 Alpha Universe](https://github.com/CineUIDev/CineUI-Player/releases/tag/v0.6.0-alpha-universe)
 
-Please remember that this is an Alpha release.
+**Free • No Ads • No Subscriptions**
 
-Expect experiments, changes and occasional bugs.
+This is a public Alpha release. Expect experiments, changes and occasional bugs.
+
+> macOS may display a security warning on first launch.
 
 ## ❤️ Feedback
 
